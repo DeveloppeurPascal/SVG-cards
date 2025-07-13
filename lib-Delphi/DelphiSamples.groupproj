@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{31C6DF04-712C-40F7-B412-258C03BEA228}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PNG-ImageList\FMX\PNGImageListFMXSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PNG-ImageList\VCL\PNGImageListVCLSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SVG-Skia4Delphi\VCL\SVGSkiaVCLSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SVG-Skia4Delphi\FMX\SVGSkiaFMXSample.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PNGImageListFMXSample">
+        <MSBuild Projects="PNG-ImageList\FMX\PNGImageListFMXSample.dproj"/>
+    </Target>
+    <Target Name="PNGImageListFMXSample:Clean">
+        <MSBuild Projects="PNG-ImageList\FMX\PNGImageListFMXSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PNGImageListFMXSample:Make">
+        <MSBuild Projects="PNG-ImageList\FMX\PNGImageListFMXSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PNGImageListVCLSample">
+        <MSBuild Projects="PNG-ImageList\VCL\PNGImageListVCLSample.dproj"/>
+    </Target>
+    <Target Name="PNGImageListVCLSample:Clean">
+        <MSBuild Projects="PNG-ImageList\VCL\PNGImageListVCLSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PNGImageListVCLSample:Make">
+        <MSBuild Projects="PNG-ImageList\VCL\PNGImageListVCLSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SVGSkiaVCLSample">
+        <MSBuild Projects="SVG-Skia4Delphi\VCL\SVGSkiaVCLSample.dproj"/>
+    </Target>
+    <Target Name="SVGSkiaVCLSample:Clean">
+        <MSBuild Projects="SVG-Skia4Delphi\VCL\SVGSkiaVCLSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SVGSkiaVCLSample:Make">
+        <MSBuild Projects="SVG-Skia4Delphi\VCL\SVGSkiaVCLSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SVGSkiaFMXSample">
+        <MSBuild Projects="SVG-Skia4Delphi\FMX\SVGSkiaFMXSample.dproj"/>
+    </Target>
+    <Target Name="SVGSkiaFMXSample:Clean">
+        <MSBuild Projects="SVG-Skia4Delphi\FMX\SVGSkiaFMXSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SVGSkiaFMXSample:Make">
+        <MSBuild Projects="SVG-Skia4Delphi\FMX\SVGSkiaFMXSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PNGImageListFMXSample;PNGImageListVCLSample;SVGSkiaVCLSample;SVGSkiaFMXSample"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PNGImageListFMXSample:Clean;PNGImageListVCLSample:Clean;SVGSkiaVCLSample:Clean;SVGSkiaFMXSample:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PNGImageListFMXSample:Make;PNGImageListVCLSample:Make;SVGSkiaVCLSample:Make;SVGSkiaFMXSample:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
