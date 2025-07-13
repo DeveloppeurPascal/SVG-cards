@@ -32,3 +32,4 @@ Enjoy!
 
 David 
 Berkeley, CA, USA 08/12/2005
+https://svg-cards.sourceforge.net
