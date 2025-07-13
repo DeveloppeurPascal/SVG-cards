@@ -1,0 +1,43 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object btnPrev: TButton
+    Align = Left
+    Size.Width = 80.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'btnPrev'
+    TextSettings.Trimming = None
+    OnClick = btnPrevClick
+  end
+  object btnNext: TButton
+    Align = Right
+    Position.X = 560.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'btnNext'
+    TextSettings.Trimming = None
+    OnClick = btnNextClick
+  end
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 480.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    OnResized = Image1Resized
+  end
+end
