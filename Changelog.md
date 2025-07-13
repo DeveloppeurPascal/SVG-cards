@@ -1,3 +1,10 @@
+2025-07-13 Patrick Prémartin
+	* created this repository from 2.0.1 version of SVG Cards from David Bellot (download from Sourceforge)
+	* added individual PNG and SVG files from the main SVG image group
+	* added Pascal and Delphi units to use the SVG Cards as bitmaps or SVG files
+	* added Delphi FireMonkey sample projects
+	* added Delphi VCL sample projects
+
 2006-06-27 David Bellot <david.bellot@free.fr>
 	* fixed namespace bug that prevented svg-card to be correctly displayed in Firefox and Illustrator
 
