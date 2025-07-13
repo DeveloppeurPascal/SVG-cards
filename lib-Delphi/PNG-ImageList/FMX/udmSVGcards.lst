@@ -1,0 +1,55 @@
+1_club	0
+1_diamond	1
+1_heart	2
+1_spade	3
+10_club	4
+10_diamond	5
+10_heart	6
+10_spade	7
+2_club	8
+2_diamond	9
+2_heart	10
+2_spade	11
+3_club	12
+3_diamond	13
+3_heart	14
+3_spade	15
+4_club	16
+4_diamond	17
+4_heart	18
+4_spade	19
+5_club	20
+5_diamond	21
+5_heart	22
+5_spade	23
+6_club	24
+6_diamond	25
+6_heart	26
+6_spade	27
+7_club	28
+7_diamond	29
+7_heart	30
+7_spade	31
+8_club	32
+8_diamond	33
+8_heart	34
+8_spade	35
+9_club	36
+9_diamond	37
+9_heart	38
+9_spade	39
+back	40
+black joker	41
+jack club	42
+jack diamond	43
+jack heart	44
+jack spade	45
+king club	46
+king diamond	47
+king heart	48
+king spade	49
+queen club	50
+queen diamond	51
+queen heart	52
+queen spade	53
+red joker	54
