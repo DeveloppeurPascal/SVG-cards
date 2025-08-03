@@ -89,6 +89,9 @@ iOSSimulator/
 iOSSimARM64/
 TMSWeb/
 
+# C++Builder compiler directories
+Win64x/
+
 # Private directory
 _PRIVATE/
 _PRIVE/
