@@ -1,3 +1,6 @@
+2025-08-03 Patrick Prémartin
+	* added a lib-CBuilder folder and C++Builder sample projects in C++
+
 2025-07-13 Patrick Prémartin
 	* created this repository from 2.0.1 version of SVG Cards from David Bellot (download from Sourceforge)
 	* added individual PNG and SVG files from the main SVG image group
@@ -19,5 +22,5 @@
 	* charatecters : resizing the white cover for the top-left and bottom-right cut-off symbol.
 
 2004-06-15  David Bellot <bellot@stat.berkeley.edu>
-	* * : first release
+	* : first release
 		This is the first public release
